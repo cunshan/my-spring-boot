@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        echo 'aaaaa'
+        git(changelog: true, url: 'https://github.com/cunshan/my-spring-boot.git', branch: 'master', credentialsId: 'aa')
       }
     }
   }
