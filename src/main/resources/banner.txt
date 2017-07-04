@@ -1,0 +1,8 @@
+我是banner
+${application.version}
+${application.formatted-version}
+${spring-boot.version}
+${spring-boot.formatted-version}
+${Ansi.NAME}
+${AnsiBackground.NAME}
+${application.title}
